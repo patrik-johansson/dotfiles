@@ -7,6 +7,7 @@ sytax on
 colorscheme zmrok
 set number
 set ruler
+set showmatch
 
 " Set tabs to be 2 spaces and visible in the editor, and have vim automatically 
 " indent your code according to last line
@@ -21,3 +22,6 @@ set ignorecase
 set smartcase
 set incsearch
 set hlsearch
+
+" Don't use sound for errors
+set noerrorbells
