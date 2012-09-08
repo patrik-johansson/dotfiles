@@ -3,7 +3,7 @@ filetype plugin on
 
 " Dark theme with syntax highlighting and line numbers
 set bg=dark
-sytax on
+syntax on
 colorscheme zmrok
 set number
 set ruler
