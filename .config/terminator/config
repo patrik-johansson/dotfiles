@@ -2,19 +2,31 @@
 [keybindings]
 [profiles]
   [[default]]
-
-	[[solarized-dark]]
+  [[solarized-dark]]
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-		foreground_color = "#eee8d5"
-		background_color = "#002b36"
-		cursor_color = "#eee8d5"
-
-	[[solarized-light]]
-		palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
-		background_color = "#eee8d5"
-		foreground_color = "#002b36"
-		 cursor_color = "#002b36"
-
+    background_color = "#002b36"
+    cursor_color = "#eee8d5"
+    foreground_color = "#eee8d5"
+  [[red-sands]]
+    palette = "#000000:#ff3f00:#00bb00:#e7b000:#0071ff:#bb00bb:#00bbbb:#bbbbbb:#555555:#bb0000:#00bb00:#e7b000:#0071ae:#ff55ff:#55ffff:#ffffff"
+    background_color = "#79241e"
+    cursor_color = "#002b36"
+    foreground_color = "#d7c9a7"
+  [[solarized-light]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_color = "#eee8d5"
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+  [[zenburn]]
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    background_color = "#3f3f3f"
+    cursor_color = "#eee8d5"
+    foreground_color = "#dcdccd"
+  [[Vaughn]]
+    palette = "#24234F:#705050:#60B48A:#DFAF8F:#5555FF:#F08CC3:#8CD0D3:#709080:#709080:#DCA3A3:#60B48A:#F0DFAF:#5555FF:#EC93D3:#93E0E3:#FFFFFF"
+		background_color = "#25234e"
+    cursor_color = "#eee8d5"
+    foreground_color = "#dcdccd"
 
 
 [layouts]
