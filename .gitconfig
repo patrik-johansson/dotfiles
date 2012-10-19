@@ -1,0 +1,12 @@
+[user]
+	name = Patrik Johansson
+	email = johansson.k.patrik@gmail.com
+
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+
+[format]
+	pretty = "Commit:  %C(yellow)%H%nAuthor:  %C(green)%aN <%aE>%nDate:    (%C(red)%ar%Creset) %C(yellow)%ai%nSubject: %s%n%n%b"
