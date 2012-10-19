@@ -10,3 +10,7 @@
 
 [format]
 	pretty = "Commit:  %C(yellow)%H%nAuthor:  %C(green)%aN <%aE>%nDate:    (%C(red)%ar%Creset) %C(yellow)%ai%nSubject: %s%n%n%b"
+
+[core]
+	editor = vim
+
