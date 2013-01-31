@@ -15,7 +15,7 @@ YELLOW="\[\033[0;33m\]"
 YELLOWBOLD="\[\033[1;33m\]"
 DEFAULT="\[\033[0m\]"
 
-PS1="(\!)[$GREENBOLD\u@\h:$BLUEBOLD\W$DEFAULT]$RED\$(__git_ps1)$DEFAULT\$ "
+PS1="(\!)[$GREENBOLD\u@\h:$BLUEBOLD\W$DEFAULT]$YELLOW\$(__git_ps1)$DEFAULT\$ "
 
 
 # Aliases
