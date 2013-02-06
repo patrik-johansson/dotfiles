@@ -14,3 +14,5 @@
 [core]
 	editor = vim
 
+[alias]
+	graph = "log --graph --all --full-history --color --format=format:'%C(yellow)%h%C(reset) - %C(red)(%ar)%C(reset) %C(white)%s%C(reset) %C(green)— %an%C(reset)%C(yellow)%d%C(reset)' --abbrev-commit"
