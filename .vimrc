@@ -1,5 +1,9 @@
 filetype plugin on
 
+" Use pathogen for plugin management
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
 " Allow the use of backspace even in edit mode
 set backspace=indent,eol,start
 
