@@ -31,3 +31,6 @@ set hlsearch
 
 " Don't use sound for errors
 set noerrorbells
+
+" Syntastic, syntax checker plugin, settings
+let g:syntastic_python_checkers=['python']
