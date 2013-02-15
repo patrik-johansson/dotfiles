@@ -29,8 +29,15 @@ set smartcase
 set incsearch
 set hlsearch
 
+" Status line related settings
+set nocompatible
+set laststatus=2
+set encoding=utf-8
+set t_Co=256
+
 " Don't use sound for errors
 set noerrorbells
 
 " Syntastic, syntax checker plugin, settings
 let g:syntastic_python_checkers=['python']
+
