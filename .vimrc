@@ -1,5 +1,7 @@
 filetype plugin on
 
+" Allow the use of backspace even in edit mode
+set backspace=indent,eol,start
 
 " Dark theme with syntax highlighting and line numbers
 set bg=dark
