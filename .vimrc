@@ -48,5 +48,5 @@ let g:gundo_preview_bottom=1
 let g:gundo_width = 25
 
 " NERDTree, visual file selector
-nmap <silent> <C-D> :NERDTreeToggle<CR>
+nmap <silent> <F4> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
