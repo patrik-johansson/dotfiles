@@ -43,3 +43,10 @@ let g:syntastic_python_checkers=['python']
 
 " Gundo, undo tree visualizing plugin
 nnoremap <F5> :GundoToggle<CR>
+let g:gundo_help=0
+let g:gundo_preview_bottom=1
+let g:gundo_width = 25
+
+" NERDTree, visual file selector
+nmap <silent> <C-D> :NERDTreeToggle<CR>
+let NERDTreeShowHidden=1
