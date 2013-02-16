@@ -53,3 +53,7 @@ let NERDTreeShowHidden=1
 
 " Tagbar, visual ctags
 nmap <F3> :TagbarToggle<CR>
+
+" Remove search highlights with carriage return
+nnoremap <CR> :noh<CR>
+
