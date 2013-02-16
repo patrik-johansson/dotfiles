@@ -41,3 +41,5 @@ set noerrorbells
 " Syntastic, syntax checker plugin, settings
 let g:syntastic_python_checkers=['python']
 
+" Gundo, undo tree visualizing plugin
+nnoremap <F5> :GundoToggle<CR>
