@@ -57,3 +57,8 @@ nmap <F3> :TagbarToggle<CR>
 " Remove search highlights with carriage return
 nnoremap <CR> :noh<CR>
 
+" Rainbow parentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
