@@ -1,5 +1,3 @@
-source /etc/bash_completion.d/git
-
 # Color coded, git enabled PS1
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWSTASHSTATE=true
