@@ -1,3 +1,6 @@
+# Command not found functionality
+source /etc/zsh_command_not_found
+
 # Settings
 export DISABLE_AUTO_UPDATE="true"
 export ZSH_THEME="kphoen"
