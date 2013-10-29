@@ -12,3 +12,6 @@ plugins=(git mvn gradle screen django )
 
 # Aliases
 alias ll='ls -lah'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'

@@ -18,3 +18,6 @@ PS1="(\!)[$GREENBOLD\u@\h:$BLUEBOLD\W$DEFAULT]$YELLOW\$(__git_ps1)$DEFAULT\$ "
 
 # Aliases
 alias ll="ls -alh"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
