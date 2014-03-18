@@ -15,6 +15,8 @@ DEFAULT="\[\033[0m\]"
 
 PS1="(\!)[$GREENBOLD\u@\h:$BLUEBOLD\W$DEFAULT]$YELLOW\$(__git_ps1)$DEFAULT\$ "
 
+# Environment variables
+export PYTHONSTARTUP=~/.pythonstartup
 
 # Aliases
 alias ll="ls -alh"
