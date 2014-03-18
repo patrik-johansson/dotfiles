@@ -11,7 +11,4 @@ source $ZSH/oh-my-zsh.sh
 plugins=(git mvn gradle screen django )
 
 # Aliases
-alias ll='ls -lah'
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
+source ~/.aliases

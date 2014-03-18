@@ -19,8 +19,4 @@ PS1="(\!)[$GREENBOLD\u@\h:$BLUEBOLD\W$DEFAULT]$YELLOW\$(__git_ps1)$DEFAULT\$ "
 export PYTHONSTARTUP=~/.pythonstartup
 
 # Aliases
-alias ls="ls --color"
-alias ll="ls -alh"
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
+source ~/.aliases
