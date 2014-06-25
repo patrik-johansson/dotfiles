@@ -14,6 +14,8 @@ colorscheme zmrok
 set number
 set ruler
 set showmatch
+set mouse=a
+set wildmenu
 
 " Set tabs to be 2 spaces and visible in the editor, and have vim automatically 
 " indent your code according to last line
