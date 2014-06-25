@@ -6,7 +6,6 @@ else # OS X `ls`
 fi
 
 # Aliases
-alias ls="ls --color"
 alias ll="ls -alh"
 alias ..='cd ..'
 alias ...='cd ../..'
