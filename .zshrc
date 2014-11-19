@@ -5,7 +5,7 @@ fi
 
 # Settings
 export DISABLE_AUTO_UPDATE="true"
-export ZSH_THEME="kphoen"
+export ZSH_THEME="dieter"
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
