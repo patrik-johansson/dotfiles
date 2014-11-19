@@ -1,5 +1,7 @@
 # Command not found functionality
-source /etc/zsh_command_not_found
+if [[ -s '/etc/zsh_command_not_found' ]]; then
+  source '/etc/zsh_command_not_found'
+fi
 
 # Settings
 export DISABLE_AUTO_UPDATE="true"
