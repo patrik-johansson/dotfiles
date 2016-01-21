@@ -23,6 +23,7 @@ set tabstop=2
 set list
 set listchars=tab:__,trail:.
 set autoindent
+set expandtab
 
 " Use case insensitive searches (but still keep it case sensitive when in a
 " pattern
@@ -64,3 +65,18 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+" Change to relative- or absolute line numbers
+function! LineNumberToggle()
+    if(&relativenumber == 1)
+        " Set absolute line numbers
+        set number
+    else
+        " Set relative line numbers
+        set relativenumber
+    endif
+endfunc
+
+" Toggle show absolute/relative line numbers with CTRL-N-N
+nnoremap <C-N><C-N> :call LineNumberToggle()<CR>
+
